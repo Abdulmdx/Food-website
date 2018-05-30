@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav{
+    background-color: #333;
+    list-style: none;
+    overflow: auto;
+}
+
+
+.topnav a{
+    float: left;
+    display: block;
+    padding: 30px 60px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.topnav a:hover:not(.active){
+    background-color: black;
+}
+
+.active {
+    background-color: #ccc929;
+}
+
+.search{
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    outline: 0;
+}
+
+.submit{
+    height: 30px;
+    width: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #333;
+    outline: 0;
+}
+
+.input{
+    position: absolute;
+    top: 25px;
+    left: 900px;    
+}
+
+.bottomNav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.bottomNav button{
+    float: left;
+    display: block;
+    padding: 30px 90px;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 30px;
+    border: none;
+    outline: 0;
+    color: white;
+    cursor: pointer;
+    background-color: #333; 
+    margin-left: 200px;
+}
+.bottomNav button:hover{
+    background-color: black;
+}
+
+.headObj{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    text-align: center;
+}
+
+.headExp{
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+    text-align: center;
+}
+
+.h1text{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.h2text{
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inputCMS{
+    text-align: center;
+    position: absolute;
+    top:40%;
+    left: 20%;
+}
+
+.inputCMS input{
+    height: 30px;
+    width: 800px;
+    border-color: #333;
+}
+
+.inputCMS button{
+    height: 50px;
+    width: 800px;
+    border: none;
+    background-color: #333;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+
+.inputCMS button:hover{
+    background-color: black;
+}
+
+.inputUpdate{
+    text-align: center;
+    position: absolute;
+    top:70%;
+    left: 20%;
+}
+
+.inputUpdate input{
+    height: 30px;
+    width: 800px;
+    border-color: #333;
+}
+
+.inputUpdate button{
+    height: 50px;
+    width: 800px;
+    border: none;
+    background-color: #333;
+    cursor: pointer;
+    color: white;
+    font-size: 17px; 
+}
+
+.buttonFood{
+    position: absolute;
+    top: 120%;
+    left: 43%;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: #333;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    outline: 0;
+}
+
+.buttonFood:hover{
+    background-color: black;
+}
+
+.buttonFood i{
+    position: absolute;
+    left: 80%;
+}
+
